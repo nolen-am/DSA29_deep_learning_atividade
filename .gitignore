@@ -1,0 +1,10 @@
+*.venv
+*.vscode
+*.pyc
+*.npy
+*.pth
+/src/xview3/all/*
+/src/xview3/all/*
+**/VH_dB.*
+**/VV_dB.*
+
