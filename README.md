@@ -84,7 +84,7 @@ python -m xview3.postprocess.v2.infer /xview3/postprocess/model.pth out-prune.cs
 
 ## Aumento de Dados em Teste
 
-Empregamos aumento de dados durante o teste na nossa submissão final, o que proporciona uma pequena melhoria de 0,5% no desempenho.
+Empregamos aumento de dados durante o teste na nossa submissão final, o que proporciona uma pequena melhoria de 0,5% no desempenho
 
 ```
 python -m xview3.infer.inference --image_folder /xview3/test/images/ --weights ../data/models/final/best.pth --output out-1.csv --config_path ../data/configs/final.txt --padding 400 --window_size 3072 --overlap 20
