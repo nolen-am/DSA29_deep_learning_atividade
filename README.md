@@ -26,7 +26,6 @@ python -m xview3.processing.preprocessing ../data/configs/chipping_config.txt
 
 ## Treinamento Inicial
 
-Primeiro, treinamos um modelo apenas com as 50 cenas de validação do xView3.  
 Aplicamos este modelo às cenas de treinamento do xView3 e incorporamos previsões de alta confiança como rótulos adicionais.  
 Isso ocorre porque as cenas de treinamento do xView3 não estão completamente rotuladas, já que a maioria dos rótulos é derivada automaticamente de rastros do AIS.
 
